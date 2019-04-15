@@ -1,0 +1,39 @@
+1. You Have 10 File in the format of 
+----------------------------------------
+Date(HH-MM-SS) ExceptionName
+
+You have to aggregate the whole result based as 
+11:00  NULLPOINT 5
+12:00  NameNotFound 6
+etc
+
+You have to use n Mapper and k reducer  with p files.
+
+2. You Have 10 File in the format of 
+-----------------------------------
+Name count
+
+You have to aggregate the whole result based as 
+NameA 5
+NameB 6
+etc
+ 
+You have to use n Mapper and k reducer  with p files.
+Following provision should also there.
+1. Driver program can stop the executing threads
+2. Mapper  program can update regarding exection of chunk to Driver i.e how much time it will take to execute
+3. healthcheck from Driver to mapper and reducer.
+
+
+2. You Have to create facebook feed 
+-----------------------------------
+No of user 1.25b
+Avg friend 1000
+Celebrity can have 50 crore friend
+a. How to create post and comment table
+b. How to handle likes
+c. How to handle celebrity
+d. How to store user for normal and celebrity
+e. How to handle friend list
+f. fan in and fan out
+
